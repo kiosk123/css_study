@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        /*type1과 type2는 같은 설정임*/
+        #type1 {
+            font-size:5rem;
+            /*폰트명에 공백이 포함되어 있는 경우는 문자열로 나타냄*/
+            /*monospace는 고정너비로 폰트를 표현한다는 것을 나타냄*/
+            font-family: Arial, Helvetica, sans-serif 'Arial Narrow Bold' monospace;
+            font-weight: bold;
+            /*줄간 간격 기본 1.2*/
+            line-height: 2;
+        }
+
+        #type2 {
+            font: bold 5rem/2  Arial monospace
+        }
+    </style>
+  </head>
+  <body>
+    <p id="type1">
+          Hello world<br>
+          Hello world
+    </p> 
+    <p id="type2">
+        Hello world<br>
+        Hello world
+    </p>
+  </body>
+</html>
