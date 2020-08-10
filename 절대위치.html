@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        #parent, #other, #grand{
+            border:5px solid tomato;
+        }
+        #grand{
+            position: relative;
+        }
+        #me{
+            background-color: black;
+            color:white;
+            /*
+                absolute의 left와 top값이 지정되지 않으면
+                부모엘리먼트를 기준으로 위치가 잡힌다.
+                값을 지정할때 html을 기준으로 위치가 잡힌다
+                그리고 absolute로 지정하면 부모와 자식태그간의
+                링크가 끊기면서 부모태그와 무관해진다.
+                다만 부모태그의 포지션이 relative라면 부모태그를
+                기준으로 위치값(오프셋) 설정이 된다.
+                여기서는 #grand가 오프셋 기준이됨
+
+            */
+            position: absolute;
+            left:0;
+            top:0;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="other">other</div>
+    <div id="grand">
+       grand
+        <div id="parent">
+           parent
+           <div id="me">me</div>
+        </div>
+    </div>
+     
+  </body>
+</html>

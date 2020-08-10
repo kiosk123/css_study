@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        #parent{
+            /* 
+                부모태그가 시각적으로 아무런 효과도 없는
+                투명한 상태가 되면, 자식태그와 부모태그의
+                마진값이 합쳐진다. 즉 부모와 자식태그의 
+                마진값이 큰쪽의 마진값이 자식태그의 마진값으로
+                사용된다.(자신태그의 위치로 사용된다.)
+            */
+            /* border:1px solid tomato; */
+            margin-top:100px;
+        }
+        #child{
+            background-color: powderblue;
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child">
+            Hello world
+        </div>
+    </div>
+</body>
+</html>

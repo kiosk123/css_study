@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        *{
+            /*
+                content-box : 기본값. 내용의 크기만큼 width와 height 값이 지정
+                border-box : border의 경계를 기준으로 width와 height 값이 지정
+            */
+            box-sizing:border-box;
+        } 
+        div{
+            margin:10px;
+            width:150px; /*태그의 내용의 길이를 뜻함*/
+            /* box-sizing: border-box;  */
+        }
+        #small{
+            border:10px solid black;
+        }
+        #large{
+            border:30px solid black;
+        }
+    </style>
+</head>
+<body>
+       <div id="small">Hello</div>
+       <div id="large">Hello</div>
+</body>
+</html>
