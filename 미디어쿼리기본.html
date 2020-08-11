@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+   <!--모바일 원하는 화면이 나와서 미디어쿼리가 작동하도록 도와주는 메타태그-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*
+            미디어(휴대폰, PC등, 프린트출력(프린트모드)에 
+            적합한 표현을 할 수있게 해주는 기술이 미디어 쿼리
+        */
+        @media (max-width:700px){
+            body{
+                background-color: green;
+            }
+        }
+        @media (max-width:600px){
+            body{
+                background-color: red;
+            }
+        }
+        @media (min-width:701px){
+            body{
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+   <ul>
+       <li>~600px : red</li>
+       <li>601~700px : green</li>
+       <li>701px~ : blue</li>
+   </ul>
+     
+     
+     
+</body>
+</html>

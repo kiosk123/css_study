@@ -1,0 +1,35 @@
+<!doctype html>
+<head>
+  <style>
+    img{
+      width:300px;
+      float:left;
+      margin:20px;
+    }
+    p{
+      border:1px solid gray;
+      
+    }
+    p:nth-child(3) {
+        /*
+            clear 속성이 적용된 태그 float가 적용된 태그가 float된 효과가 사라짐
+            clear:left는 float가 적용된 태그의 float가 left일때만 적용 right일때
+            clear:left는 작동하지 않음
+            clear:right는 clear:left의 반대로 작동함
+            clear:both는 둘다 적용
+        
+        */
+        clear: both;
+    }
+  </style>
+</head>
+<body>
+  <img src="sample.mt.jpg" alt="">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate minus, obcaecati quia eaque perspiciatis! Vero cum libero architecto. Odit, et. Totam expedita
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate minus, obcaecati quia eaque perspiciatis! Vero cum libero architecto. Odit, et. Totam expedita Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate minus, obcaecati quia eaque perspiciatis! Vero cum libero architecto. Odit, et. Totam expedita Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate minus, obcaecati quia eaque perspiciatis! Vero cum libero architecto. Odit, et. Totam expedita
+  </p>
+</body>
+</html>
