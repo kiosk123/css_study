@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        img {
+            /*모든 효과 변환이 1초동안에 적용된다. */
+            transition: all 1s;
+        }
+        img:hover{
+            /*  벤더프리픽스 : 실험적으로 각 벤더에서 사용하는 기능
+                -webkit- 크롬, 사파리등
+                -o- 오페라
+            */
+            /* -webkit-filter:none;
+            -o-filter:none; */
+            filter:grayscale(100%);
+        }
+        h1 {
+            filter:blur(1px);
+        }
+    </style>
+</head>
+<body>
+    <h1>Mountain</h1>
+    <img src="sample.mt.jpg" alt="">
+</body>
+</html>

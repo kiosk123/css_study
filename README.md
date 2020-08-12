@@ -24,3 +24,21 @@ css 강의 보면서 공부한 내용 정리
 * float 기본
 * float holy grail layout
 * 멀티컬럼(다단)
+* 배경 - background 관련 속성
+* 필터 - 명도, 채도, 흐림등 각종 효과 , [예제사이트](https://codepen.io/search/pens?q=filter)
+* 변형 - 포토샵 처럼 컨텐츠에 왜곡, 회전등의 각종 효과
+* 전환(transition) - 부드러운 효과 전환에 사용되는 기능 [trasition timing function](https://matthewlein.com/tools/ceaser)
+* link와 import
+* 코드경량화 - [clean-css-online](http://adamburgess.github.io/clean-css-online/), [clean-css](https://github.com/jakubpawlowicz/clean-css) [clean-css-util](https://github.com/jakubpawlowicz/clean-css-cli)
+* preprocessor - css의 부족한 기능(중첩 등..)을 preprocessor가 보충한다. preprocessor가 인식 할수있는 스타일 파일을 컴파일하여 순수한 css로 만든다.   
+ [less](http://lesscss.org/), [sass](https://sass-lang.com/), [stylus](https://stylus-lang.com/), [preprocessor 도구 비교](https://csspre.com/compile/)
+ * [fontello](http://fontello.com/) - 특정한 문자를 특정한 이미지로 표현하는 방식(벡터방식의 이미지를 추가할 수 있는 방식).  svg 파일을 이용한 Custom 폰트를 작성한다.
+ * [Unicode table](https://unicode-table.com/en/)
+ * [Icon](https://thenounproject.com/)
+ * 표준 벡터이미지는 svg이다.
+
+'''
+    //선택자 설명
+    //class의 이름이 icon-로 시작하는 모든 before에 대해서, class의 이름이 icon-을 포함하는 모든 before에 대해서
+    [class^="icon-"]:before, [class*=" icon-"]
+'''

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <style>
+        body {
+            /*문자코드를 fontello 아이콘이나 font로 표현하는데 필수*/
+            font-family: "fontello";
+            color:purple;
+        }
+        /*content의 앞과 뒤를 before와 after로 처리*/
+        #test::before{
+            content:"s";
+            color:red;
+            font-size:30px;
+        }
+        #test:after{
+            content:"e";
+            color:blue;
+            font-size:50px;
+        }
+        #git{
+
+        }
+        
+    </style>
+</head>
+<body>
+    A
+    &#65;
+    &#xe840;
+    <i class=" icon-ie"></i>
+    <i class=" icon-spin6 animate-spin"></i>
+    <div id="test">A</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<head>
+  <style>
+    a{
+      font-size:3rem;
+      /*transform은 display가 inline-block 또는 block으로만 효과발생*/
+      display:inline-block; 
+
+      /*복수의 횩과만 지정*/
+      /*transition-property: font-size transform;*/
+      /*transition: font-size 1s, transform 0.1s;*/
+
+      /* 모든 장면 효과에 지정*/
+/*
+      transition-property: all;  
+      transition-duration: 0.1s;
+*/
+      transition:all 0.1s;
+      /*1초뒤에 움직임*/
+      /* transition-delay: 1s;  */
+    }
+    a:active{
+      transform:translate(20px, 20px);
+      font-size:2rem;
+    }
+  </style>
+</head>
+<body>
+  <a href="#">Click</a>
+</body>
+</html>
