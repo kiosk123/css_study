@@ -15,9 +15,9 @@ css 강의 보면서 공부한 내용 정리
 * 인라인vs블럭레벨 - 인라인태그와 블럭레벨 태그의 차이
 * 절대위치 - position : absolute
 * flex 기본 - flex 레이아웃의 기본 구조, 부모(container)와 자식(item)이 기본구조
-![flex layout](https://github.com/kiosk123/css_study/blob/master/flex%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EA%B5%AC%EC%A1%B0.jpg =400x400)
+![flex layout](https://github.com/kiosk123/css_study/blob/master/flex%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EA%B5%AC%EC%A1%B0.jpg?raw=true)
 * flex-grow&flex-shrink - flex레이아웃 자식에서 flex-basis, flex-grow, flex-shrink 속성 사용법
-![flex property](https://github.com/kiosk123/css_study/blob/master/flex%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EC%86%8D%EC%84%B1.jpg =400x400)
+![flex property](https://github.com/kiosk123/css_study/blob/master/flex%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EC%86%8D%EC%84%B1.jpg?raw=true)
 * flex_holy_grail_layout
 * [flex 기타속성](https://codepen.io/enxaneta/pen/adLPwv)
 * 미디어쿼리 기본
