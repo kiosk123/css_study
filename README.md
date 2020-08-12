@@ -37,8 +37,8 @@ css 강의 보면서 공부한 내용 정리
  * [Icon](https://thenounproject.com/)
  * 표준 벡터이미지는 svg이다.
 
-'''
+```
     //선택자 설명
     //class의 이름이 icon-로 시작하는 모든 before에 대해서, class의 이름이 icon-을 포함하는 모든 before에 대해서
     [class^="icon-"]:before, [class*=" icon-"]
-'''
+```
