@@ -19,6 +19,7 @@ css 강의 보면서 공부한 내용 정리
 * flex-grow&flex-shrink - flex레이아웃 자식에서 flex-basis, flex-grow, flex-shrink 속성 사용법
 ![flex property](./flex레이아웃속성.jpg)
 * flex_holy_grail_layout
+![holy_graillayout](./flex_holy_grail_layout.png)
 * [flex 기타속성](https://codepen.io/enxaneta/pen/adLPwv)
 * 미디어쿼리 기본
 * 미디어쿼리 응용
