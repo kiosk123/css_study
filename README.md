@@ -21,6 +21,7 @@ css 강의 보면서 공부한 내용 정리
 * flex_holy_grail_layout
 ![holy_graillayout](./flex_holy_grail_layout.png)
 * [flex 기타속성](https://codepen.io/enxaneta/pen/adLPwv)
+* flex 레이아웃 추가 설명 [참고](https://joshuajangblog.wordpress.com/2016/09/19/learn-css-flexbox-in-3mins/)
 * 미디어쿼리 기본
 * 미디어쿼리 응용
 * float 기본
