@@ -17,6 +17,7 @@ css 강의 보면서 공부한 내용 정리
 * flex 기본 - flex 레이아웃의 기본 구조, 부모(container)와 자식(item)이 기본구조  
 * flex를 사용하기 위해서는 기본적으로 container에 `display: flex` 속성이 부여되어 있어야함  
 ![flex layout](./flex레이아웃구조.jpg)  
+* 다음은 컨테이너와 컨테이너에 속하는 아이템에서 사용할 수 있는 속성들을 정의한 것 <span style="color:cyan; font-weight:bold;">(속성 값이 아님 속성임) </span>  
 ![flex property](./flex레이아웃속성.jpg)  
 * flex-grow&flex-shrink - flex레이아웃 자식에서 flex-basis, flex-grow, flex-shrink 속성 사용법  
 * [flex-basis 용법](https://developer.mozilla.org/ko/docs/Web/CSS/flex-basis)  
