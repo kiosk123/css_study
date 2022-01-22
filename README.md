@@ -1,5 +1,6 @@
 # CSS 공부내용 정리
 
+CSS 강의 [링크](https://opentutorials.org/course/2418)  
 css 강의 보면서 공부한 내용 정리  
 
 * 고정위치 - position : fixed  
