@@ -16,9 +16,9 @@ css 강의 보면서 공부한 내용 정리
 * 절대위치 - position : absolute  
 * flex 기본 - flex 레이아웃의 기본 구조, 부모(container)와 자식(item)이 기본구조  
 ![flex layout](./flex레이아웃구조.jpg)  
+![flex property](./flex레이아웃속성.jpg)  
 * flex-grow&flex-shrink - flex레이아웃 자식에서 flex-basis, flex-grow, flex-shrink 속성 사용법  
 * [flex-basis 용법](https://developer.mozilla.org/ko/docs/Web/CSS/flex-basis)  
-![flex property](./flex레이아웃속성.jpg)  
 * flex_holy_grail_layout  
 ![holy_graillayout](./flex_holy_grail_layout.png)  
 * [flex 기타속성](https://codepen.io/enxaneta/pen/adLPwv)  
