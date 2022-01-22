@@ -15,6 +15,7 @@ css 강의 보면서 공부한 내용 정리
 * 인라인vs블럭레벨 - 인라인태그와 블럭레벨 태그의 차이  
 * 절대위치 - position : absolute  
 * flex 기본 - flex 레이아웃의 기본 구조, 부모(container)와 자식(item)이 기본구조  
+* flex를 사용하기 위해서는 기본적으로 container에 `display: flex` 속성이 부여되어 있어야함  
 ![flex layout](./flex레이아웃구조.jpg)  
 ![flex property](./flex레이아웃속성.jpg)  
 * flex-grow&flex-shrink - flex레이아웃 자식에서 flex-basis, flex-grow, flex-shrink 속성 사용법  
