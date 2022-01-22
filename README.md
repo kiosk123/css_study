@@ -46,7 +46,7 @@ css 강의 보면서 공부한 내용 정리
 ```
     //선택자 설명
     //class의 이름이 icon-로 시작하는 모든 before에 대해서, class의 이름이 icon-을 포함하는 모든 before에 대해서
-    [class^="icon-"]:before, [class*=" icon-"]
+    [class^="icon-"]:before, [class*="icon-"]:before
 ```
 
 * 선택자 연습 [사이트](https://flukeout.github.io/)
